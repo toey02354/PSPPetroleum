@@ -123,8 +123,8 @@ img {
   background: rgb(4, 0, 67);
   background: linear-gradient(
     151deg,
-    rgb(4, 0, 58) 0%,
-    rgba(9, 9, 121, 1) 72%,
+    rgb(8, 0, 114) 0%,
+    rgb(26, 26, 170) 72%,
     rgb(0, 255, 55) 100%
   );
   color: aliceblue;
