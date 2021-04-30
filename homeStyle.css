@@ -96,6 +96,25 @@ img {
   color: black;
   background-color: #d9edf4;
 }
+.footer-one-I {
+  float: left;
+}
+.footer-one-II {
+  display: flex;
+  float: right;
+  text-decoration: none;
+  color: black;
+}
+.footer-one-II-text {
+  height: 30px;
+  width: auto;
+  margin-left: 10px;
+}
+.footer-one-II-img {
+  height: 30px;
+  width: auto;
+  margin-left: 15px;
+}
 .footer-two {
   background-color: #bddfe8;
   /* color: aliceblue; */
