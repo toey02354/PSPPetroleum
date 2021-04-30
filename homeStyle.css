@@ -85,7 +85,6 @@ img {
 .footer-two,
 .footer-three {
   display: block;
-  margin: none;
   padding: 1% 1% 1% 1%;
   height: 100%;
   font-size: 16px;
@@ -98,22 +97,22 @@ img {
 }
 .footer-one-I {
   float: left;
+  margin: 0 10px;
 }
 .footer-one-II {
   display: flex;
   float: right;
   text-decoration: none;
   color: black;
+  margin: 0 10px;
 }
 .footer-one-II-text {
   height: 30px;
   width: auto;
-  margin-left: 10px;
 }
 .footer-one-II-img {
   height: 30px;
   width: auto;
-  margin-left: 15px;
 }
 .footer-two {
   background-color: #bddfe8;
@@ -130,17 +129,19 @@ img {
   color: aliceblue;
 }
 .footer-three-I-img {
+  margin: 0 10px;
   display: flex;
   max-height: 100%;
   max-width: 60px;
   float: left;
 }
-.footer-three-I {
-  margin-left: 1rem;
+.footer-three-I-text {
+  margin: 0 10px;
   float: left;
   font-size: 20px;
 }
 .footer-three-II {
+  margin: 0 10px;
   float: right;
 }
 
