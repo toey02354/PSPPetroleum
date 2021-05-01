@@ -214,14 +214,6 @@ section video {
   justify-content: center;
   padding: 0 2.5% 0 2.5%;
 }
-.paragraph-certificate-left {
-  float: left;
-  width: 25%;
-}
-.paragraph-certificate-right {
-  float: left;
-  width: 65%;
-}
 
 @media only screen and (max-width: 600px) {
   .contents #paragraph {
