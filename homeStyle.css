@@ -202,12 +202,12 @@ section video {
   padding: 0 2.5% 0 2.5%;
   opacity: 1;
 }
-#paragraph-certificate {
+.paragraph-certificate {
   float: left;
-  text-align: center;
-  justify-content: center;
   font-size: 16px;
   width: 100%;
+  text-align: justify;
+  justify-content: center;
   padding: 0 2.5% 0 2.5%;
 }
 .contents #title {
