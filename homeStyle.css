@@ -194,6 +194,7 @@ section video {
 /* make 2 rows */
 .contents .row {
   display: table;
+  margin: 0;
 }
 .contents #title {
   font-size: 24px;
@@ -203,23 +204,34 @@ section video {
   text-align: justify;
   width: 45%;
   padding: 0 2.5% 0 2.5%;
-  opacity: 1;
+}
+.paragraph-left {
+  width: 20%;
+  float: left;
+  text-align: right;
+  padding: 0 2.5% 2.5% 2.5%;
+  font-size: 24px;
 }
 .paragraph-certificate {
-  display: table;
   float: left;
-  font-size: 16px;
-  width: 100%;
+  font-size: 20px;
+  width: 70%;
   text-align: left;
   justify-content: center;
-  padding: 0 2.5% 0 4%;
-  place-items: center;
+  padding: 0 2.5% 0 2.5%;
+}
+th {
+  width: 20%;
 }
 
 @media only screen and (max-width: 600px) {
   .contents #paragraph {
     width: 100%;
     padding: 1rem 2.5% 1rem 2.5%;
+  }
+  .paragraph-left {
+    width: 100%;
+    text-align: center;
   }
   .paragraph-certificate {
     display: flex;
