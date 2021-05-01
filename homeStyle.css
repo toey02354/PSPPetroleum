@@ -202,20 +202,13 @@ section video {
   padding: 0 2.5% 0 2.5%;
   opacity: 1;
 }
-#paragraph_left1 {
+#paragraph {
   float: left;
-  text-align: justify;
-  width: 25%;
-  padding: 0 2.5% 0 2.5%;
-  opacity: 1;
-}
-#paragraph_right1 {
-  float: left;
-  text-align: justify;
+  text-align: center;
+  justify-content: center;
   font-size: 16px;
-  width: 65%;
+  width: 100%;
   padding: 0 2.5% 0 2.5%;
-  opacity: 1;
 }
 .contents #title {
   font-size: 24px;
