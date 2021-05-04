@@ -17,18 +17,3 @@ window.addEventListener("scroll", () => {
     piceo.style.opacity = 1;
   }
 });
-var vid1 = document.getElementById("myVideo1");
-var vid2 = document.getElementById("myVideo2");
-
-function playVid1() {
-  vid1.play();
-}
-function pauseVid1() {
-  vid1.pause();
-}
-function playVid2() {
-  vid2.play();
-}
-function pauseVid2() {
-  vid2.pause();
-}
