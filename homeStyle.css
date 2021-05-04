@@ -192,7 +192,7 @@ section video {
 }
 
 /* make 2 rows */
-.contents .row {
+.row {
   display: table;
   margin: 0;
 }
@@ -222,6 +222,20 @@ section video {
 }
 th {
   width: 20%;
+}
+#paragraph_video {
+  float: left;
+  justify-items: center;
+  width: 45%;
+  padding: 0 2.5% 0 2.5%;
+}
+#myVideo1,
+#myVideo2 {
+  float: right;
+}
+.btn_play {
+  border: 0;
+  padding: 2px 4px;
 }
 
 @media only screen and (max-width: 600px) {
