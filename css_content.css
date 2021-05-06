@@ -75,6 +75,16 @@ section video {
 .paragraph-certificate th {
   width: 30%;
 }
+/* #button-about th {
+  width: 40%;
+} */
+#button-certificate {
+  display: block;
+}
+#button-history,
+#button-about {
+  display: none;
+}
 .paragraph_video {
   float: left;
   justify-items: center;
