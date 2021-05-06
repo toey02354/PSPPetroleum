@@ -58,7 +58,8 @@ section video {
   padding: 0 2.5% 0 2.5%;
 }
 .paragraph-left {
-  width: 20%;
+  display: flex;
+  width: 10%;
   float: left;
   text-align: right;
   padding: 0 2.5% 2.5% 2.5%;
@@ -74,12 +75,6 @@ section video {
 }
 .paragraph-certificate th {
   width: 30%;
-}
-/* #button-about th {
-  width: 40%;
-} */
-#button-certificate {
-  display: block;
 }
 #button-history,
 #button-about {
