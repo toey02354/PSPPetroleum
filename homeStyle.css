@@ -22,15 +22,12 @@ img {
 }
 
 @media only screen and (max-width: 600px) {
-  .contents #paragraph {
-    width: 100%;
-    padding: 1rem 2.5% 1rem 2.5%;
-  }
   .paragraph-left {
+    display: flex;
     width: 100%;
     text-align: center;
   }
-  .paragraph-certificate {
+  .paragraph {
     display: flex;
     float: left;
     font-size: 16px;
@@ -38,9 +35,6 @@ img {
     text-align: left;
     justify-content: center;
     padding: 0 2.5% 0 2.5%;
-  }
-  .paragraph-oil {
-    font-size: 16px;
   }
   .paragraph_video {
     width: 90%;
