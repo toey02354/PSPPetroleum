@@ -76,6 +76,9 @@ section video {
   text-align: left;
   padding: 0 2.5% 0 2.5%;
 }
+th {
+  vertical-align: top;
+}
 #button-certificate .paragraph th {
   width: 20%;
 }
