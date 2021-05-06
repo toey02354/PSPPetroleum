@@ -6,8 +6,11 @@
   display: grid;
 }
 
+.footer-two {
+  display: none;
+}
+
 .footer-one,
-.footer-two,
 .footer-three {
   display: block;
   padding: 1% 1% 1% 1%;
