@@ -56,6 +56,15 @@ section video {
   padding: 0 2.5% 2.5% 2.5%;
   font-size: 20px;
 }
+.paragraph-left button {
+  cursor: pointer;
+  border-color: black;
+  padding: 5px 7px;
+  margin: 5px 5px;
+  background-color: transparent;
+  font-size: 20px;
+  text-align: left;
+}
 .paragraph {
   float: left;
   font-size: 18px;
