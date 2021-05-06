@@ -65,16 +65,26 @@ section video {
   font-size: 20px;
   text-align: left;
 }
+.paragraph-left button:hover {
+  background-color: rgb(17, 17, 17);
+  color: white;
+}
 .paragraph {
   float: left;
   font-size: 18px;
-  width: 70%;
+  width: 100%;
   text-align: left;
   justify-content: center;
   padding: 0 2.5% 0 2.5%;
 }
-.paragraph th {
+#button-certificate .paragraph th {
+  width: 20%;
+}
+#button-history .paragraph th {
   width: 30%;
+}
+#button-about .paragraph th {
+  width: 50%;
 }
 #button-history,
 #button-about {
