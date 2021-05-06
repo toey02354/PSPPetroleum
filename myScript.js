@@ -35,7 +35,7 @@ function show_about() {
   var cer = document.getElementById("button-certificate");
   var hist = document.getElementById("button-history");
   var about = document.getElementById("button-about");
-  cer.style.display = "noen";
+  cer.style.display = "none";
   hist.style.display = "none";
   about.style.display = "block";
 }
