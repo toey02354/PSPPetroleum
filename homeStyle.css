@@ -214,7 +214,7 @@ section video {
 }
 .paragraph-oil {
   float: left;
-  font-size: 20px;
+  font-size: 24px;
   width: 90%;
   text-align: left;
   justify-content: center;
@@ -261,6 +261,9 @@ th {
     text-align: left;
     justify-content: center;
     padding: 0 2.5% 0 2.5%;
+  }
+  .paragraph-oil {
+    font-size: 16px;
   }
   .paragraph_video {
     width: 90%;
