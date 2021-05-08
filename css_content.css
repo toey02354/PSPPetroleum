@@ -21,6 +21,13 @@ section video {
   height: 100%;
   z-index: -1;
 }
+.column1Video img {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
 .headtext {
   font-size: 40px;
   text-transform: uppercase;
