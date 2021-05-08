@@ -20,6 +20,12 @@ html {
 img {
   width: 100%;
 }
+.footer,
+.contents,
+.column1,
+.header {
+  overflow: hidden;
+}
 
 @media only screen and (max-width: 600px) {
   .paragraph-left {
