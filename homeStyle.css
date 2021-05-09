@@ -3,6 +3,7 @@
 @import url("css_footer.css");
 @import url("css_scroll.css");
 @import url("css_content.css");
+@import url("css_slide.css");
 
 body {
   background-color: rgb(31, 31, 31);
